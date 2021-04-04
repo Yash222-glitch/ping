@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.ping{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.boii{
+    color: hsl(223, 87%, 63%);
+}
+
+.soon1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    color: hsl(0, 0%, 59%);
+    padding-top: 30px;
+}
+
+.soon{
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+
+.subscribe{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#email {
+    color: hsl(209, 33%, 12%);
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius:25px;
+    padding: 15px 165px 15px 20px;
+    margin: 40px;
+}
+
+#submitButton {
+    background-color: hsl(223, 87%, 63%);
+    border-style: none;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding: 15px 45px;
+    -webkit-box-shadow: 1px 2px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 17px -4px rgba(0,0,0,0.75);
+}
+
+#errorMessage {
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    margin-top: 7px;
+    position: absolute;
+    left: 715px;
+}
+
+#submitButton:hover {
+    opacity: 75%;
+    transition: 1s;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+    padding-top: 25px;
+}
+
+.social-link {
+    color:hsl(223, 87%, 63%);
+    font-size:1em;
+    border-radius: 50%;
+    border: solid white;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.social-link:visited {
+    text-decoration: none;  
+}
+
+.social-link:hover {
+    transform: scale(1) rotate(360deg);
+}
+
+.copyright {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
